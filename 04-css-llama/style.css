@@ -78,4 +78,23 @@ html[xmlns] .clearfix { display: block; }
 header#site-header h1 { position:absolute; left:10px; top:10px; }
 header#site-header h1 a { display:block; width:200px; height:200px; background:url(images/logo.png) top center no-repeat; text-indent:-9999px; }
 
+<style>
+
+body {
+		width:960px;
+		margine;0 auto;
+}
+article {
+		float:left; 
+		width:40%;
+		margin:20px;
+}
+img {
+	width:200px;
+	float:left;
+	margin:10px;
+	}
+h1 {font-weight:bold; font-size:24px; line-height:18px;}
+h2 {color:grey; font-size:12px; line-height:32px;}
+
 
