@@ -75,31 +75,25 @@ html[xmlns] .clearfix { display: block; }
 
 
 
-<style>
-
-.pagewrapper {
-		width: 960px;
-		margin: 0 auto 0 auto;
-}
-
 body {
 		width:960px;
 		margin:0 auto;
 }
 
+header {
+		position:relative;
+		height:250px;
+		}
+
 header img {
-			position:relative;
-			top:25%;
+			position:absolute;
+			top:5%;
 			left:25%;
 }
 
-#top-nav {
-		 position:absolute;
-		 right:15px;
-}
 #top-menu {
-		  position:relative;
-		  top:15%;
+		  position:absolute;
+		  top:150px;
 		  left:15%;
 }
 #top-menu ul li {
@@ -117,24 +111,23 @@ article {
 		line-height:18px;
 }
 
-img {
-	position:relative;
+article img {
+
+    display:inline-block;
 	width:400px;
 }
 
 #site-footer {
  			 clear:both;
  			 position:relative;
- 					
+ 			 }
+
+#site-footer p {
+			  float:left;
+			  padding:20px;
+ 
 }
-#site-footer p1 {
-				float:left;
-				margin:20px;
-}
-#site-footer p2 {
-				float:right;
-				margin:20px;
-}
+
 
 h1 {
 	font-weight:bold; 
