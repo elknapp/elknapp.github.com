@@ -77,17 +77,23 @@ body {
 	 margin: 0 auto;
 }
 
+#site-wrapper {
+background:#eff4da;
+}
+
+header {
+      	margin:0 auto;
+      	width:960px;
+}
+
 #site-header h1 {
       			position:relative;
       			padding-left:40px;
-      			background-color:#eff4da;
-      			width:960px;
 }
 
 #top-nav {
 		 position:absolute;
-		 top:0;
-		 right:0;
+		 top:0;right:0;
 		 padding-top:10px;
 		 padding-right:50px;
 		 font-size:10px;
@@ -99,11 +105,14 @@ body {
              font-family:Helvetica;
 }
 
-#main-menu {
-	position:absolute;
-	display:inline;
-	width:1000px;
-	background-color:#744918;
+#menu-wrapper {
+			  background-color:#744918;
+}
+
+nav#main-menu {
+	width:960px;
+	margin:0 auto;
+	height:35px;
 
 }
 
@@ -187,11 +196,13 @@ aside a {
              font-family:Helvetica;
 }
 
-#footer-wrapper {
+#site-footer {
 		clear:both;
 		position:relative;
-		width:1000px;
-		height:170px;
+		margin:0 auto;
+		wdith:960px;
+		height:200px;
+
 		font-family:Helvetica;
 		background-color:#744918;
 }
@@ -226,9 +237,6 @@ aside a {
 #footer-follow li {
 			      float:right;
 			      padding-top: 10px
-}
-#footer-follow li img {
-					  width:80%
 }
 
 
