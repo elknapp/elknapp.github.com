@@ -82,7 +82,7 @@ body {
 
 header {
 		position:relative;
-		height:215px;
+		height:200px;
 		}
 
 header img {
@@ -91,23 +91,50 @@ header img {
 			left:20%;
 }
 
-#top-menu {
-		  position:absolute;
-		  top:140px;
-		  left:8%;
-		  text-align:center;
+
+nav {
+	position:absolute;
+	top:120px;
+	left:3%;
+	padding-top:20px;
 }
-#top-menu ul li {
- 				float:left;
- 				padding:20px;
- 				width:100px;
+
+nav ul {
+ 	   float:left;
 }
+
+nav li {
+ 	   float:left;
+ 	   padding:10px;
+ 	   list-style-type:disc;
+ 	   padding-left:40px;
+ 	   padding-right:40px;
+ 	   border-bottom:4px solid black;
+  	   border-top:4px solid black;
+
+ }
+ 
+ nav li:first-child {
+ 					list-style:none;
+ }
+
+nav ul li a {
+  text-decoration:none; 
+  color:black;
+  font-family:Georgia;
+  font-weight:bold;
+  font-size:18px;
+  text-transform:uppercase;
+  }
+
 
 article {
 		float:left;
 		width:40%;
 		margin:20px;
-		line-height:18px;
+		font-family:Georgia;
+		font-size:13px;
+		line-height:17px;
 }
 
 article img {
@@ -116,19 +143,31 @@ article img {
 	width:400px;
 }
 
-#site-footer {
- 			 clear:both;
- 			 position:relative;
- 			 }
+h1 {
+	font-family:Georgia;
+	font-weight:bold; 
+	font-size:24px; 
+	line-height:42px;
+}
 
-#site-footer p {
-			  float:left;
-			  padding:20px;
+#site-footer {
+			 clear:both;
+			 position:relative
+			 padding:20px;
+			 border-top: 4px solid black;
 }
 
 
-h1 {
-	font-weight:bold; 
-	font-size:24px; 
-	line-height:48px;
+.wikicopy {
+			  float:left;
+			  font-family:Georgia;
+			  font-size:11px;
+			  padding-top:10px;
+}
+
+.copyright {
+			  float:right;
+			  font-family:Georgia;
+			  font-size:11px;
+			  padding-top:10px;
 }
