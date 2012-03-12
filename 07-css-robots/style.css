@@ -72,30 +72,24 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
-body {
-	 width: 960px;
-	 margin: 0 auto;
-}
-
 #site-wrapper {
 background:#eff4da;
 }
 
-header {
+header#site-header {
       	margin:0 auto;
       	width:960px;
 }
 
 #site-header h1 {
       			position:relative;
-      			padding-left:40px;
+
 }
 
 #top-nav {
 		 position:absolute;
 		 top:0;right:0;
-		 padding-top:10px;
-		 padding-right:50px;
+		 padding:10px;
 		 font-size:10px;
 }
 
@@ -141,16 +135,15 @@ nav#main-menu {
 
 article h1 {
 			position:relative;
-			padding-top:50px;
 }
 		
-article {
+#content article {
 		float:left;
-		width:40%;
 		padding:40px;
 		padding-top:50px;
 		font-family:Helvetica;
-		
+		margin:0 auto;
+		width:500px;
 }
 
 article p {
@@ -180,10 +173,11 @@ aside h1 {
 
 aside {
 	  float:left;
-	  width:150px;
-	  margin:50px;
 	  font-size:10px;
 	  line-height:14px;
+	  padding-left:50px;
+	  	  width:150px;
+	  margin:0 auto;
 }
 
 aside img {
@@ -196,15 +190,18 @@ aside a {
              font-family:Helvetica;
 }
 
-#site-footer {
-		clear:both;
-		position:relative;
-		margin:0 auto;
-		wdith:960px;
-		height:200px;
-
-		font-family:Helvetica;
+#footer-wrapper {
 		background-color:#744918;
+		height:200px;
+		clear:both;
+
+}
+
+#site-footer {
+		margin:0 auto;
+		width:960px;
+		font-family:Helvetica;
+
 }
 
 #footer-contact {
