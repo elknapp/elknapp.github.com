@@ -86,14 +86,12 @@ html[xmlns] .clearfix { display: block; }
 
 }
 
-body {
-		width:960px;
-		margin:0 auto;
-}
 
 header {
 		position:relative;
-		height:200px;
+		height:150px;
+		margin:0 auto;
+		width:960px;
 		}
 
 header img {
@@ -103,25 +101,37 @@ header img {
 }
 
 
-nav {
-	position:absolute;
-	top:120px;
-	left:3%;
-	padding-top:20px;
+#menu-wrapper {
+				border-top: 3px solid black;
+				border-bottom: 3px solid black;
+				height:30px;
+
+				}
+
+nav#main-menu {
+	margin: 0 auto;
+	width: 960px;
+	height:30px;
 }
+
+#main-menu {
+			position:absolute;
+			left:24%;
+			}
 
 nav ul {
  	   float:left;
+ 	   width:960px;
 }
+
 
 nav li {
  	   float:left;
- 	   padding:10px;
  	   list-style-type:disc;
+ 	   text-align:center;
+ 	   padding:7px;
  	   padding-left:40px;
  	   padding-right:40px;
- 	   border-bottom:4px solid black;
-  	   border-top:4px solid black;
 
  }
  
@@ -129,7 +139,7 @@ nav li {
  					list-style:none;
  }
 
-nav ul li a {
+ a {
   text-decoration:none; 
   color:black;
   font-family:Georgia;
@@ -138,34 +148,47 @@ nav ul li a {
   text-transform:uppercase;
   }
 
+#content
+		{
+		margin: 0 auto;
+		width: 960px;
+		}
+
 
 article {
 		float:left;
-		width:40%;
-		margin:20px;
+		width:400px;
+		padding:20px;
 		font-family:Georgia;
 		font-size:13px;
 		line-height:17px;
 }
 
 article img {
-
-    display:inline-block;
+	position:relative;
 	width:400px;
 }
 
 h1 {
+position:relative;
 	font-family: 'LeagueGothicRegular';
 	font-weight:bold; 
 	font-size:24px; 
 	line-height:42px;
 }
 
+#footer-wrapper {
+				border-bottom: 3px solid black;
+				padding:-10px;
+				}
+
 #site-footer {
+			 margin:0 auto;
+			 width: 960px;
 			 clear:both;
 			 position:relative
 			 padding:20px;
-			 border-top: 4px solid black;
+
 }
 
 
