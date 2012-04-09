@@ -76,12 +76,22 @@ html[xmlns] .clearfix { display: block; }
 header{
 		margin:0 auto;
 		width:960px;
+		position:relative;
 		}
+		
 
-#site-header h2 {
-				position:relative;
-				text-transform:uppercase;
-				}
+header h1 {
+	position:absolute;
+	text-transform:uppercase;
+	top:0px; left:-265px;
+	padding:10px;
+	}
+	
+header h2 {
+	position:absolute;
+	top:130px; left:-20px;
+
+	}
 
 #top-nav {
 		 position:absolute;
@@ -91,7 +101,7 @@ header{
 }
 
 #menu-wrapper {
-				border-top: 3px dotted lightgrey;
+				float:left;
 				height:20px;
 				}
 
@@ -99,6 +109,8 @@ header{
 			margin:0 auto;
 			width:960px;
 			display:block;
+			padding:15px;
+			margin-top:160px;
 			
 			}
 #main-menu ul {
@@ -108,21 +120,24 @@ header{
 #main-menu li {
 			margin-top:10px;
 			position:relative;
-			padding-top:10px;
+			padding-top:5px;
 			text-transform:uppercase;
-			height:30px;
 			}
+
 
  a {
   text-decoration:none; 
   color:black;
   }
+  
 
 #content {
 		 float:left;
 		 margin:0 auto;
 		 width:960px;
-		 padding-left:400px;
+		 margin-top:150px;
+		 margin-left:235px;
+		 padding-bottom:15px;
 		 }
 
 article img {
@@ -130,14 +145,18 @@ article img {
 			width:20%;
 			padding-left:10px;
 			padding-top:15px;
+			
 	}
 
+.top {
+	 border-top: 3px dotted lightgrey;
+}
   
 aside img{
 			float:left;
 			width:63%;
 			padding-top:15px;
-			padding-left:10px;
+			padding-left:8px;
 			}
   
 #site-footer {
