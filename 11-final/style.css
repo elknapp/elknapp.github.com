@@ -72,6 +72,18 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
+@font-face {
+    font-family: WisdomScriptAIRegular;
+    src: url(font/wisdomscript/wisdom_script-webfont.eot);
+    src: url(font/wisdomscript/wisdom_script-webfont.eot?#iefix) format(embedded-opentype),
+         url(font/wisdomscript/wisdom_script-webfont.woff) format(woff),
+         url(font/wisdomscript/wisdom_script-webfont.ttf) format(truetype),
+         url(font/wisdomscript/wisdom_script-webfont.svg#WisdomScriptAIRegular) format(svg);
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
 
 header{
 		margin:0 auto;
@@ -97,8 +109,14 @@ header h2 {
 		 position:absolute;
 		 top:0px;right:0;
 		 padding:10px;
-		 font-size:15px;
+		 font-family:WisdomScriptAIRegular;
+		 font-size:20px;
+		 color:#DD5866;
+		 
 }
+#top-nav a {
+			color:#DD5866;
+			}
 
 #menu-wrapper {
 				float:left;
