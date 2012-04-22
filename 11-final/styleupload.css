@@ -72,12 +72,33 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
+@font-face {
+    font-family: WisdomScriptAIRegular;
+    src: url(font/wisdomscript/wisdom_script-webfont.eot);
+    src: url(font/wisdomscript/wisdom_script-webfont.eot?#iefix) format(embedded-opentype),
+         url(font/wisdomscript/wisdom_script-webfont.woff) format(woff),
+         url(font/wisdomscript/wisdom_script-webfont.ttf) format(truetype),
+         url(font/wisdomscript/wisdom_script-webfont.svg#WisdomScriptAIRegular) format(svg);
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+
 header{
 		margin:0 auto;
 		width:960px;
 		position:relative;
 		}
+		
 
+header h1 {
+	position:absolute;
+	text-transform:uppercase;
+	top:0px; left:-265px;
+	padding:10px;
+	}
+	
 #site-header h2 {
 				position:relative;
 				text-transform:uppercase;
@@ -87,11 +108,17 @@ header{
 		 position:absolute;
 		 top:0px;right:0;
 		 padding:10px;
-		 font-size:15px;
+		 font-family:WisdomScriptAIRegular;
+		 font-size:20px;
+		 color:#DD5866;
+		 
 }
+#top-nav a {
+			color:#DD5866;
+			}
 
 #menu-wrapper {
-				border-top: 3px dotted lightgrey;
+				float:left;
 				height:20px;
 				}
 
@@ -99,6 +126,8 @@ header{
 			margin:0 auto;
 			width:960px;
 			display:block;
+			padding:15px;
+			margin-top:160px;
 			
 			}
 #main-menu ul {
@@ -108,37 +137,38 @@ header{
 #main-menu li {
 			margin-top:10px;
 			position:relative;
-			padding-top:10px;
+			padding-top:5px;
 			text-transform:uppercase;
-			height:30px;
 			}
+
 
  a {
   text-decoration:none; 
   color:black;
   }
+  
 
 #content {
 		 float:left;
 		 margin:0 auto;
 		 width:960px;
-		 padding-left:400px;
+		 margin-top:150px;
+		 margin-left:235px;
+		 padding-bottom:15px;
 		 }
 
 article img {
 			float:left;
-			width:25%;
-			padding-left:10px;
 			padding-top:15px;
+			width:85%;
+			
 	}
 
+.top {
+	 border-top: 3px dotted lightgrey;
+}
   
-aside img{
-			float:left;
-			width:63%;
-			padding-top:15px;
-			padding-left:10px;
-			}
+
   
 #site-footer {
   			margin:o auto;
