@@ -95,13 +95,13 @@ header{
 header h1 {
 	position:absolute;
 	text-transform:uppercase;
-	top:0px; left:-265px;
+	top:0px; left:-180px;
 	padding:10px;
 	}
 	
 header h2 {
 	position:absolute;
-	top:130px; left:-20px;
+	top:130px; left:70px;
 
 	}
 
