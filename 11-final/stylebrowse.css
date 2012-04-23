@@ -83,6 +83,21 @@ html[xmlns] .clearfix { display: block; }
     font-style: normal;
     }
 
+#page-wrapper {
+				margin:0 auto;
+				width:960;
+				}
+
+
+#site-wrapper { 
+				margin:0 auto;
+				width:960px;
+				float:left;
+}
+
+body {
+		text-align:left;
+	}
 
 header{
 		margin:0 auto;
@@ -93,13 +108,12 @@ header{
 header h1 {
 	position:absolute;
 	text-transform:uppercase;
-	top:0px; left:-180px;
 	padding:10px;
 	}
 
 header h2 {
 	position:absolute;
-	top:130px; left:70px;
+	top:130px; left:245px;
 	}
 
 #top-nav {
@@ -150,7 +164,7 @@ header h2 {
 		 margin:0 auto;
 		 width:960px;
 		 margin-top:150px;
-		 margin-left:235px;
+		 margin-left:245px;
 		 padding-bottom:15px;
 		 border:3px dotted #DD5866;
 		 }
