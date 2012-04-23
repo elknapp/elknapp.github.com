@@ -83,9 +83,21 @@ html[xmlns] .clearfix { display: block; }
     font-style: normal;
     }
 
+@font-face {
+    font-family: NovecentowideBook;
+    src: url(font/novecentobook/novecentowide-book-webfont-webfont.eot);
+    src: url(font/novecentobook/novecentowide-book-webfont-webfont.eot?#iefix) format(embedded-opentype),
+         url(font/novecentobook/novecentowide-book-webfont-webfont.woff) format(woff),
+         url(font/novecentobook/novecentowide-book-webfont-webfont.ttf) format(truetype),
+         url(font/novecentobook/novecentowide-book-webfont-webfont.svg#NovecentowideBook) format(svg);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 #page-wrapper {
 				margin:0 auto;
-				width:960;
+				width:960px;
 				}
 
 
@@ -107,13 +119,14 @@ header{
 
 header h1 {
 	position:absolute;
-	text-transform:uppercase;
 	padding:10px;
 	}
 
 header h2 {
 	position:absolute;
 	top:130px; left:245px;
+	font-family: NovecentowideBook;
+	font-size:23px;
 	}
 
 #top-nav {
@@ -121,7 +134,7 @@ header h2 {
 		 top:0px;right:0;
 		 padding:10px;
 		 font-family:WisdomScriptAIRegular;
-		 font-size:20px;
+		 font-size:15px;
 		 color:#DD5866;
 		 
 }
@@ -152,12 +165,19 @@ header h2 {
 			position:relative;
 			padding-top:5px;
 			text-transform:uppercase;
+			font-family: NovecentowideBook;
+			font-size:17px;
 			}
 
  a {
   text-decoration:none; 
   color:black;
   }
+  
+#main-menu li a:hover {
+					  text-decoration:none;
+					  color:lightgrey;					  
+}
 
 #content {
 		 float:left;
@@ -191,6 +211,8 @@ aside img{
 #site-footer {
   			margin:o auto;
   			width:960px;
+  			font-family: NovecentowideBook;
+			font-size:12px;
   			}
   			
 .copyright {

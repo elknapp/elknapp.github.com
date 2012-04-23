@@ -99,7 +99,7 @@ html[xmlns] .clearfix { display: block; }
 
 #page-wrapper {
 				margin:0 auto;
-				width:960;
+				width:960px;
 				}
 
 
@@ -159,8 +159,8 @@ header h2 {
 			margin-top:145px;
 			font-family: NovecentowideBook;
 			font-size:17px;
-	
 			}
+
 #main-menu ul {
 			position:relative;
 			}
@@ -176,9 +176,15 @@ header h2 {
  a {
   text-decoration:none; 
   color:black;
-  }
   
+  }
 
+#main-menu li a:hover {
+					  text-decoration:none;
+					  color:lightgrey;
+					  
+}
+  
 #content {
 		 float:left;
 		 margin:0 auto;
@@ -210,6 +216,8 @@ aside img{
 #site-footer {
   			margin:o auto;
   			width:960px;
+  			font-family: NovecentowideBook;
+			font-size:12px;
   			}
   			
 .copyright {
