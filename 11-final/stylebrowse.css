@@ -207,8 +207,10 @@ header h3 {
 		 margin-left:280px;
 		 padding-bottom:15px;
 		 }
-
-
+article li a:hover {
+						color:red;
+						}
+				
 article img {
 			float:left;
 			width:20%;

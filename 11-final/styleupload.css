@@ -204,27 +204,38 @@ header h3 {
 article {
 		 float:left;
 		 background-color:#414042;
-		 height:475px;
+		 height:500px;
 		 width:650px;
-
-		 
-		 
 		 }
+		 
 article img {
 			float:left;
-			padding-top:100px;
+			padding-top:60px;
 			padding-left:160px;
 			width:50%;			
 	}
 
-article a {
+article h1 a {
+	position:relative;
 	font-family: WisdomScriptAIRegular;
 	font-size:22px;
 	color:white;
-	background-color:#DD5866;
-	padding:15px;
+	background-color:#DB856D;
+	padding-left:15px; padding-right:15px; padding-top:10px; padding-bottom:10px;
 	border-radius:10px;
+	top:360px; left:210px;
 }
+
+article h2 a {
+	position:relative;
+	font-family: WisdomScriptAIRegular;
+	font-size:22px;
+	color:white;
+	background-color:#DB856D;
+	padding-left:15px; padding-right:15px; padding-top:10px; padding-bottom:10px;
+	border-radius:10px;
+	top:338px; left:325px;
+	}
   
 #site-footer {
 			position:relative;
