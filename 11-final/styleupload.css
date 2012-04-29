@@ -118,28 +118,40 @@ header{
 		
 header h1 {
 	position:absolute;
-	padding:10px;
+	left:15px; top:10px;
 	}
-		
+	
 header h2 {
 	position:absolute;
-	top:130px; left:245px;
+	top:130px; left:285px;
 	font-family: NovecentowideBook;
-	font-size:23px;
-
+	font-size:18px;
+	color:black;
+	border-bottom: 3px dotted lightgrey;
+	width:805px;
+	padding-bottom:20px;
+	}
+	
+header h3 {
+	position:relative;
+	top:130px; left:445px;
+	font-family: WisdomScriptAIRegular;
+	font-size:18px;
+	color:#DD5866;
 	}
 
 #top-nav {
 		 position:absolute;
-		 top:0px;right:0;
+		 top:0px;left:960px;
 		 padding:10px;
-		 font-family:WisdomScriptAIRegular;
-		 font-size:15px;
-		 color:#DD5866;
-		 
-}
+		 font-family:NovecentowideBook;
+		 font-size:10px;
+		 color:lightgrey;
+		 width:960px;	 
+		  }
+		  
 #top-nav a {
-			color:#DD5866;
+			color:lightgrey;
 			}
 
 #menu-wrapper {
@@ -152,9 +164,9 @@ header h2 {
 			width:960px;
 			display:block;
 			padding:15px;
-			margin-top:160px;
+			margin-top:145px;
 			font-family: NovecentowideBook;
-			font-size:17px;
+			font-size:20px;
 			}
 
 #main-menu ul {
@@ -162,10 +174,17 @@ header h2 {
 			}
 
 #main-menu li {
-			margin-top:10px;
+			padding-top:15px;
+			padding-bottom:15px;
 			position:relative;
-			padding-top:5px;
 			text-transform:uppercase;
+			border-bottom: 3px dotted lightgrey;
+			width:210px;
+			top:-9px;
+			}
+			
+#main-menu li:first-child {
+			border-top: 3px dotted lightgrey;
 			}
 
  a {
@@ -182,8 +201,8 @@ header h2 {
 		 float:left;
 		 margin:0 auto;
 		 width:960px;
-		 margin-top:150px;
-		 margin-left:245px;
+		 margin-top:130px;
+		 margin-left:280px;
 		 padding-bottom:15px;
 		 border:3px dotted #DD5866;
 		 }
@@ -195,18 +214,13 @@ article img {
 			width:85%;
 			
 	}
-
-.top {
-	 border-top: 3px dotted lightgrey;
-}
-  
-
   
 #site-footer {
   			margin:o auto;
   			width:960px;
   			font-family: NovecentowideBook;
 			font-size:12px;
+			color:lightgrey;
   			}
   			
 .copyright {

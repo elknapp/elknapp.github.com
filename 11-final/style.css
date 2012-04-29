@@ -122,9 +122,7 @@ header{
 
 header h1 {
 	position:absolute;
-	left:15px; top:22px;
-	border-bottom: 3px dotted lightgrey;
-	width:210px;
+	left:15px; top:10px;
 	}
 	
 header h2 {
@@ -133,7 +131,9 @@ header h2 {
 	font-family: NovecentowideBook;
 	font-size:18px;
 	color:black;
-
+	border-bottom: 3px dotted lightgrey;
+	width:805px;
+	padding-bottom:20px;
 	}
 	
 header h3 {
@@ -146,7 +146,7 @@ header h3 {
 
 #top-nav {
 		 position:absolute;
-		 top:-115px;left:500px;
+		 top:0px;left:960px;
 		 padding:10px;
 		 font-family:NovecentowideBook;
 		 font-size:10px;
@@ -184,6 +184,11 @@ header h3 {
 			text-transform:uppercase;
 			border-bottom: 3px dotted lightgrey;
 			width:210px;
+			top:-9px;
+			}
+			
+#main-menu li:first-child {
+			border-top: 3px dotted lightgrey;
 			}
 
 
@@ -213,16 +218,11 @@ article img {
 			width:20%;
 			padding-left:10px;
 			padding-top:15px;
-			
 	}
 
-.top {
-	 border-top: 3px dotted lightgrey;
-	 width:960px;
-}
-  
 aside {
-	  float:left;
+	  float:left;	
+	  font-family:Garamond;
 	  font-size:14px;
 	  line-height:18px;
 	  padding:50px;
@@ -253,6 +253,7 @@ aside h2 {
   			width:960px;
   			font-family: NovecentowideBook;
 			font-size:12px;
+			color:lightgrey;
   			}
   			
 .copyright {
