@@ -94,47 +94,36 @@ html[xmlns] .clearfix { display: block; }
     font-style: normal;
 }
 
-#page-wrapper {
-				margin:0 auto;
-				width:960px;
-				}
-
-
-#site-wrapper { 
-				margin:0 auto;
-				width:960px;
-				float:left;
+body {
+		width:960px;
+		margin:0 auto;
 }
 
-body {
-		text-align:left;
-	}
 
 header{
-		margin:0 auto;
-		width:960px;
 		position:relative;
 		}
 		
+
 header h1 {
 	position:absolute;
-	left:15px; top:10px;
+	top:0; left:0;
 	}
 	
 header h2 {
 	position:absolute;
-	top:130px; left:285px;
 	font-family: NovecentowideBook;
 	font-size:18px;
+	top:120px; left:270px;
 	color:black;
+	width:80%;
 	border-bottom: 3px dotted lightgrey;
-	width:805px;
 	padding-bottom:20px;
 	}
 	
 header h3 {
-	position:relative;
-	top:130px; left:445px;
+	position:absolute;
+	top:120px; left:435px;
 	font-family: WisdomScriptAIRegular;
 	font-size:18px;
 	color:#DD5866;
@@ -142,31 +131,22 @@ header h3 {
 
 #top-nav {
 		 position:absolute;
-		 top:0px;left:960px;
+		 top:0px;right:0px; 
 		 padding:10px;
 		 font-family:NovecentowideBook;
 		 font-size:10px;
-		 color:lightgrey;
-		 width:110px;	 
+		 color:lightgrey; 
 		  }
 		  
 #top-nav a {
 			color:lightgrey;
 			}
 
-#menu-wrapper {
-				float:left;
-				height:20px;
-				}
-
 #main-menu {
-			margin:0 auto;
-			width:960px;
-			display:block;
-			padding:15px;
-			margin-top:145px;
+			padding-top:21px;
 			font-family: NovecentowideBook;
 			font-size:20px;
+			width:210px;
 			}
 
 #main-menu ul {
@@ -174,13 +154,12 @@ header h3 {
 			}
 
 #main-menu li {
+			position:relative;
 			padding-top:15px;
 			padding-bottom:15px;
-			position:relative;
 			text-transform:uppercase;
 			border-bottom: 3px dotted lightgrey;
-			width:210px;
-			top:-9px;
+			top:140px;
 			}
 			
 #main-menu li:first-child {
@@ -197,8 +176,7 @@ header h3 {
 }
 
 #container {
-			position:relative;
-			top:150px; left:360px;
+			float:left;
 			}
   
 article {
@@ -239,13 +217,12 @@ article h2 a {
   
 #site-footer {
 			position:relative;
-  			margin:0 auto;
-  			width:960px;
   			font-family: NovecentowideBook;
 			font-size:12px;
-			color:lightgrey;
-			top:700px;left:-650px;
-			padding-bottom:10px;
   			}
+  			
+.copyright {
+		float:left;
+		}
   
   

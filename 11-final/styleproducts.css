@@ -95,47 +95,36 @@ html[xmlns] .clearfix { display: block; }
 }
 
 
-#page-wrapper {
-				margin:0 auto;
-				width:960px;
-				}
-
-
-#site-wrapper { 
-				margin:0 auto;
-				width:960px;
-				float:left;
+body {
+		width:960px;
+		margin:0 auto;
 }
 
-body {
-		text-align:left;
-	}
 
 header{
-		margin:0 auto;
-		width:960px;
 		position:relative;
 		}
+		
 
 header h1 {
 	position:absolute;
-	left:15px; top:10px;
+	top:0; left:0;
 	}
 	
 header h2 {
 	position:absolute;
-	top:130px; left:285px;
 	font-family: NovecentowideBook;
 	font-size:18px;
+	top:120px; left:270px;
 	color:black;
+	width:80%;
 	border-bottom: 3px dotted lightgrey;
-	width:805px;
 	padding-bottom:20px;
 	}
 	
 header h3 {
-	position:relative;
-	top:130px; left:445px;
+	position:absolute;
+	top:120px; left:435px;
 	font-family: WisdomScriptAIRegular;
 	font-size:18px;
 	color:#DD5866;
@@ -143,12 +132,12 @@ header h3 {
 
 #top-nav {
 		 position:absolute;
-		 top:0px;left:960px;
+		 top:0px;right:0px; 
 		 padding:10px;
 		 font-family:NovecentowideBook;
 		 font-size:10px;
-		 color:lightgrey;
-		 width:110px;	 
+		 color:lightgrey; 
+		  }dth:110px;	 
 		  }
 		  
 #top-nav a {
@@ -161,28 +150,25 @@ header h3 {
 				}
 
 #main-menu {
-			margin:0 auto;
-			width:960px;
-			display:block;
-			padding:15px;
-			margin-top:145px;
+			padding-top:21px;
 			font-family: NovecentowideBook;
 			font-size:20px;
+			width:210px;
 			}
-
+			
 #main-menu ul {
 			position:relative;
 			}
 
 #main-menu li {
+			position:relative;
 			padding-top:15px;
 			padding-bottom:15px;
-			position:relative;
 			text-transform:uppercase;
 			border-bottom: 3px dotted lightgrey;
-			width:210px;
-			top:-9px;
+			top:140px;
 			}
+			
 #main-menu li:first-child {
 			border-top: 3px dotted lightgrey;
 			}
@@ -192,17 +178,14 @@ header h3 {
   }
   
 #main-menu li a:hover {
-					  text-decoration:none;
 					  color:lightgrey;					  
 }
 
-#content {
+article {
 		 float:left;
-		 margin:0 auto;
-		 width:960px;
-		 margin-top:130px;
-		 margin-left:280px;
-		 padding-bottom:15px;
+		 background-color:#414042;
+		 height:500px;
+		 width:650px;
 		 }
 
 article img {
