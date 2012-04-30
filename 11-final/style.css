@@ -197,18 +197,17 @@ article img {
 			 
 			 
 #container {
-			float:left;
+			float:right;
 			width:575px;
 			}
 
 aside {
-	  float:left;
+	  float:right;
 	  font-family:Garamond;
 	  font-size:14px;
 	  line-height:18px;
 	  border:3px dotted #DD5866;
 	  padding:55px;
- 
 }
 
 aside h1 {
