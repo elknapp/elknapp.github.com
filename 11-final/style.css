@@ -98,7 +98,7 @@ html[xmlns] .clearfix { display: block; }
 }
 
 body {
-		width:960px;
+		width:1000px;
 		margin:0 auto;
 		padding-top:20px;
 		padding-right:20px;
@@ -107,6 +107,7 @@ body {
 
 header{
 		position:relative;
+		height:175px;
 		}
 		
 
@@ -119,9 +120,9 @@ header h2 {
 	position:absolute;
 	font-family: NovecentowideBook;
 	font-size:18px;
-	top:120px; left:270px;
+	top:120px; right:0px;
 	color:black;
-	width:80%;
+	width:764px;
 	border-bottom: 3px dotted lightgrey;
 	padding-bottom:20px;
 	}
@@ -149,23 +150,23 @@ header h3 {
 
 
 #main-menu {
-			padding-top:21px;
+			float:left;
+			padding-top:5px;
 			font-family: NovecentowideBook;
 			font-size:20px;
-			width:210px;
+			width:190px;
+			
 			}
 
 #main-menu ul {
-			position:relative;
+			top:10px;
 			}
 
 #main-menu li {
-			position:relative;
 			padding-top:15px;
 			padding-bottom:15px;
 			text-transform:uppercase;
 			border-bottom: 3px dotted lightgrey;
-			top:140px;
 			}
 			
 #main-menu li:first-child {
@@ -184,12 +185,13 @@ header h3 {
 }
 
 #content {
-	      float:left;
+	      float:right;
+	      			
+
 	      }
 article img {
-			 position:relative;
+			 float:left;
 			 width:185px;
-			 left:270px; top:-50px;
 			 padding:3px;
 			 }
 			 
@@ -200,13 +202,12 @@ article img {
 			}
 
 aside {
-	  position:relative;
+	  float:left;
 	  font-family:Garamond;
 	  font-size:14px;
 	  line-height:18px;
 	  border:3px dotted #DD5866;
 	  padding:55px;
-	  left:468px; top:-453px;
  
 }
 
