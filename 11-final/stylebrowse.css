@@ -181,30 +181,28 @@ header h3 {
 #content {
 		 float:left;
 		 }
+		 
+article {
+		 position:relative;
+		 height:500px;
+		 width:800px;
+		 left:315px; top:-50px;
+		 }
 
 article img {
-			position:relativel
-			width:185px;
+			float:left;
 			padding:3px;
 	}
-
-  
-aside img{
-			float:left;
-			width:63%;
-			padding-top:15px;
-			padding-left:10px;
-			}
   
 #site-footer {
-  			margin:0 auto;
-  			width:960px;
+			float:left;
   			font-family: NovecentowideBook;
 			font-size:12px;
   			}
   			
 .copyright {
-		float:left;
+		position:relative;
+		bottom:0px; left:0px;
 		}
   
   
