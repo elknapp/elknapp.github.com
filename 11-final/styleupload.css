@@ -97,6 +97,8 @@ html[xmlns] .clearfix { display: block; }
 body {
 		width:960px;
 		margin:0 auto;
+		padding-top:20px;
+		padding-right:20px;
 }
 
 
@@ -180,14 +182,15 @@ header h3 {
 			}
   
 article {
-		 float:left;
+		 position:relative;
 		 background-color:#414042;
 		 height:500px;
 		 width:650px;
+		 left:330px; top:-50px;
 		 }
 		 
 article img {
-			float:left;
+			position:relative;
 			padding-top:60px;
 			padding-left:160px;
 			width:50%;			
