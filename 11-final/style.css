@@ -100,6 +100,8 @@ html[xmlns] .clearfix { display: block; }
 body {
 		width:960px;
 		margin:0 auto;
+		padding-top:20px;
+		padding-right:20px;
 }
 
 
@@ -180,26 +182,31 @@ header h3 {
 #main-menu li a:hover {
 					  color:lightgrey;					  
 }
-		 
 
+#content {
+	      float:left;
+	      }
 article img {
-			position:relative;
-			width:19%;
-			left:260px; top:-70px;
-
-	}
-
+			 position:relative;
+			 width:185px;
+			 left:270px; top:-50px;
+			 padding:3px;
+			 }
+			 
+			 
 #container {
 			float:left;
+			width:575px;
 			}
 
 aside {
-	  background-color:#EEE;
-	  float:left;
+	  position:relative;
 	  font-family:Garamond;
 	  font-size:14px;
 	  line-height:18px;
 	  border:3px dotted #DD5866;
+	  padding:55px;
+	  left:468px; top:-453px;
  
 }
 

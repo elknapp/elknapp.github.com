@@ -99,6 +99,8 @@ html[xmlns] .clearfix { display: block; }
 body {
 		margin:0 auto;
 		width:960px;
+		padding-top:20px;
+		padding-right:20px;
 	}
 
 header{
@@ -164,7 +166,7 @@ header h3 {
 			}
 
 #main-menu li:first-child {
-			border-top: 3px dotted lightgrey;
+							border-top: 3px dotted lightgrey;
 			}
 
  a {
@@ -173,20 +175,17 @@ header h3 {
   }
 
 #main-menu li a:hover {
-					  text-decoration:none;
 					  color:lightgrey;					  
 }
 
 #content {
 		 float:left;
-		 padding-bottom:15px;
 		 }
 
 article img {
-			float:left;
-			width:20%;
-			padding-left:10px;
-			padding-top:15px;
+			position:relativel
+			width:185px;
+			padding:3px;
 	}
 
   
